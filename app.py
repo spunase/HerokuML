@@ -2,7 +2,7 @@
 from flask import Flask, request, jsonify, render_template
 from tensorflow.keras.models import load_model
 from keras.preprocessing import image
-import Image
+import PIL
 import numpy as np
 import os
 import json
